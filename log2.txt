@@ -1,3 +1,5 @@
+Shabeerdas c
+S4 D 46
 Script started on Thursday 14 February 2019 04:03:40 PM IST
 ]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ alias l='ls'
 ]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ l
