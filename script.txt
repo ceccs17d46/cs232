@@ -1,0 +1,84 @@
+Script started on 2019-04-01 09:49:16+0530
+]0;s4c1@tpc-Veriton-Series: ~[01;32ms4c1@tpc-Veriton-Series[00m:[01;34m~[00m$  [Ksss[Kh cs17d46@192.168.o.[K[K0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d46@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+$ pwd
+/home/cs17d46
+$ cd .
+$ ls
+examples.desktop  sd.txt  task
+$ rm sd.txt
+$ ls
+examples.desktop  task
+$ cd task
+$ ls
+data.txt
+$ mv data.txt task5.ttx  xt
+$ ls
+task5.txt
+$ cd .
+$ ls
+task5.txt
+$ cd..   ..
+$ ls
+examples.desktop  task
+$ touc  h h abc.txt
+$ rm abc.txt
+$ ls
+examples.desktop  task
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@tpc-Veriton-Series: ~[01;32ms4c1@tpc-Veriton-Series[00m:[01;34m~[00m$ sd.txt cs17d46@10[K92.168.0.30[K]0;s4c1@tpc-Veriton-Series: ~[01;32ms4c1@tpc-Veriton-Series[00m:[01;34m~[00m$ sd.txt cs17d46@192.168.0.30[K]0;s4c1@tpc-Veriton-Series: ~[01;32ms4c1@tpc-Veriton-Series[00m:[01;34m~[00m$ sd.txt cs17d46@192.168.0.30 [C[1@s[1@c[1@p[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: [1P 
+]0;s4c1@tpc-Veriton-Series: ~[01;32ms4c1@tpc-Veriton-Series[00m:[01;34m~[00m$ scp sd.txt cs17d46@192.168.0.30 : ` [1P ~ / 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d46@192.168.0.30's password: 
+sd.txt                                          0%    0     0.0KB/s   --:-- ETAsd.txt                                        100%    6     5.8KB/s   00:00    
+]0;s4c1@tpc-Veriton-Series: ~[01;32ms4c1@tpc-Veriton-Series[00m:[01;34m~[00m$ ls
+ceccs17d59.28.02.2019.txt  [0m[01;34mfile[0m        linux2.txt   ps.txt           top.txt
+cs17d46@192.168.0.30       [01;32mfile1.txt[0m   linux.txt    [01;34mPublic[0m           user1.txt
+data.txt                   file2.txt   man.txt      redirection.txt  user.txt
+[01;34mDesktop[0m                    [01;32mfile3.txt[0m   [01;34mMusic[0m        [01;34msample[0m           [01;34mVideos[0m
+[01;34mDocuments[0m                  [01;32mfile_8.txt[0m  output1.txt  script.txt
+[01;34mDownloads[0m                  [01;32mfile.txt[0m    output2.txt  sd.txt
+er1.txt                    grep.txt    output.txt   sort.txt
+error.txt                  kill.txt    [01;34mPictures[0m     [01;34mTemplates[0m
+]0;s4c1@tpc-Veriton-Series: ~[01;32ms4c1@tpc-Veriton-Series[00m:[01;34m~[00m$ lls
+
+Command 'lls' not found, did you mean:
+
+  command 'les' from deb atm-tools
+  command 'ols' from deb speech-tools
+  command 'lrs' from deb lrslib
+  command 'ils' from deb sleuthkit
+  command 'als' from deb atool
+  command 'ls' from deb coreutils
+  command 'jls' from deb sleuthkit
+  command 'llt' from deb storebackup
+  command 'llc' from deb llvm
+  command 'hls' from deb hfsutils
+  command 'bls' from deb bacula-sd
+  command 'lli' from deb llvm-runtime
+  command 'fls' from deb sleuthkit
+  command 'lvs' from deb lvm2
+
+Try: apt install <deb name>
+
+]0;s4c1@tpc-Veriton-Series: ~[01;32ms4c1@tpc-Veriton-Series[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-01 10:14:45+0530
