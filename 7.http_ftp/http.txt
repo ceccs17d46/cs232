@@ -1,0 +1,693 @@
+Script started on 2019-04-08 10:26:56+0530
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo adduser s4d2[5P[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install update[13Papt[C[C[C[C[C[C[Csudo gedit /etc/nginx/sites-enabled/default [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Papt install nginx[9Pcript sd.txtudo apt install nginxroute[Ksftp cs17d46@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt-get update
+[sudo] password for tpc: 
+0% [Working]            Hit:1 http://packages.microsoft.com/repos/vscode stable InRelease
+0% [Waiting for headers] [Waiting for headers]0% [1 InRelease gpgv 3,181 B] [Waiting for headers] [Waiting for headers]                                                                         Hit:2 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+                                                                         0% [1 InRelease gpgv 3,181 B] [Waiting for headers]                                                   Get:3 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+0% [1 InRelease gpgv 3,181 B] [Waiting for headers] [3 InRelease 7,826 B/88.7 k                                                                               0% [1 InRelease gpgv 3,181 B] [Waiting for headers]                                                   0% [Waiting for headers]0% [2 InRelease gpgv 242 kB] [Waiting for headers]                                                  Get:4 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+0% [2 InRelease gpgv 242 kB] [4 InRelease 5,196 B/88.7 kB 6%]                                                             0% [2 InRelease gpgv 242 kB]                            0% [Waiting for headers]0% [3 InRelease gpgv 88.7 kB] [Waiting for headers]                                                   0% [Waiting for headers]0% [4 InRelease gpgv 88.7 kB] [Waiting for headers]                                                   0% [Waiting for headers]                        Get:5 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+0% [5 InRelease 31.3 kB/74.6 kB 42%]                                    0% [Working]0% [5 InRelease gpgv 74.6 kB]                             100% [Working]              Fetched 252 kB in 1s (266 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 30%Reading package lists... 37%Reading package lists... 37%Reading package lists... 63%Reading package lists... 65%Reading package lists... 65%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo apt-get upgrade
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Calculating upgrade... 0%Calculating upgrade... 50%Calculating upgrade... Done
+The following packages were automatically installed and are no longer required:
+  airstrike-common fonts-taml-tscu freeglut3 libblas3 libgfortran4 liblapack3
+  libportmidi0 libsdl-ttf2.0-0 libsmpeg0 linux-headers-4.15.0-36
+  linux-headers-4.15.0-36-generic linux-image-4.15.0-36-generic
+  linux-modules-4.15.0-36-generic linux-modules-extra-4.15.0-36-generic
+  python-numpy python-olefile python-opengl python-pil python-pygame
+  python-rabbyt
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  code fwupdate fwupdate-signed gir1.2-snapd-1 gnome-software
+  gnome-software-common gnome-software-plugin-snap grub-common grub-pc
+  grub-pc-bin grub2-common libfwup1 libnss-myhostname libnss-systemd
+  libpam-systemd libsmbclient libsnapd-glib1 libsystemd0 libudev1
+  libunistring2 libwbclient0 python3-httplib2 samba-libs systemd systemd-sysv
+  ubuntu-drivers-common ubuntu-software udev ufw unattended-upgrades
+30 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/64.4 MB of archives.
+After this operation, 1,455 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214812 files and directories currently installed.)
+Preparing to unpack .../libnss-systemd_237-3ubuntu10.17_amd64.deb ...
+Unpacking libnss-systemd:amd64 (237-3ubuntu10.17) over (237-3ubuntu10.15) ...
+Preparing to unpack .../libsystemd0_237-3ubuntu10.17_amd64.deb ...
+Unpacking libsystemd0:amd64 (237-3ubuntu10.17) over (237-3ubuntu10.15) ...
+Setting up libsystemd0:amd64 (237-3ubuntu10.17) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214812 files and directories currently installed.)
+Preparing to unpack .../libnss-myhostname_237-3ubuntu10.17_amd64.deb ...
+Unpacking libnss-myhostname:amd64 (237-3ubuntu10.17) over (237-3ubuntu10.15) ...
+Preparing to unpack .../libpam-systemd_237-3ubuntu10.17_amd64.deb ...
+Unpacking libpam-systemd:amd64 (237-3ubuntu10.17) over (237-3ubuntu10.15) ...
+Preparing to unpack .../systemd_237-3ubuntu10.17_amd64.deb ...
+Unpacking systemd (237-3ubuntu10.17) over (237-3ubuntu10.15) ...
+Preparing to unpack .../udev_237-3ubuntu10.17_amd64.deb ...
+Unpacking udev (237-3ubuntu10.17) over (237-3ubuntu10.15) ...
+Preparing to unpack .../libudev1_237-3ubuntu10.17_amd64.deb ...
+Unpacking libudev1:amd64 (237-3ubuntu10.17) over (237-3ubuntu10.15) ...
+Setting up libudev1:amd64 (237-3ubuntu10.17) ...
+Setting up systemd (237-3ubuntu10.17) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214812 files and directories currently installed.)
+Preparing to unpack .../0-systemd-sysv_237-3ubuntu10.17_amd64.deb ...
+Unpacking systemd-sysv (237-3ubuntu10.17) over (237-3ubuntu10.15) ...
+Preparing to unpack .../1-libsmbclient_2%3a4.7.6+dfsg~ubuntu-0ubuntu2.7_amd64.deb ...
+Unpacking libsmbclient:amd64 (2:4.7.6+dfsg~ubuntu-0ubuntu2.7) over (2:4.7.6+dfsg~ubuntu-0ubuntu2.6) ...
+Preparing to unpack .../2-samba-libs_2%3a4.7.6+dfsg~ubuntu-0ubuntu2.7_amd64.deb ...
+Unpacking samba-libs:amd64 (2:4.7.6+dfsg~ubuntu-0ubuntu2.7) over (2:4.7.6+dfsg~ubuntu-0ubuntu2.6) ...
+Preparing to unpack .../3-libwbclient0_2%3a4.7.6+dfsg~ubuntu-0ubuntu2.7_amd64.deb ...
+Unpacking libwbclient0:amd64 (2:4.7.6+dfsg~ubuntu-0ubuntu2.7) over (2:4.7.6+dfsg~ubuntu-0ubuntu2.6) ...
+Preparing to unpack .../4-ubuntu-drivers-common_1%3a0.5.2.3_amd64.deb ...
+Unpacking ubuntu-drivers-common (1:0.5.2.3) over (1:0.5.2.2) ...
+Preparing to unpack .../5-libunistring2_0.9.9-0ubuntu2_amd64.deb ...
+Unpacking libunistring2:amd64 (0.9.9-0ubuntu2) over (0.9.9-0ubuntu1) ...
+Setting up libunistring2:amd64 (0.9.9-0ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214812 files and directories currently installed.)
+Preparing to unpack .../00-ufw_0.36-0ubuntu0.18.04.1_all.deb ...
+Unpacking ufw (0.36-0ubuntu0.18.04.1) over (0.35-5) ...
+Preparing to unpack .../01-code_1.33.0-1554390824_amd64.deb ...
+Unpacking code (1.33.0-1554390824) over (1.32.3-1552606978) ...
+Preparing to unpack .../02-fwupdate-signed_1.19bionic2+12-3bionic2_amd64.deb ...
+Unpacking fwupdate-signed (1.19bionic2+12-3bionic2) over (1.18+10-3) ...
+Preparing to unpack .../03-fwupdate_12-3bionic2_amd64.deb ...
+Unpacking fwupdate (12-3bionic2) over (10-3) ...
+Preparing to unpack .../04-libfwup1_12-3bionic2_amd64.deb ...
+Unpacking libfwup1:amd64 (12-3bionic2) over (10-3) ...
+Preparing to unpack .../05-gir1.2-snapd-1_1.47-0ubuntu0.18.04.0_amd64.deb ...
+Unpacking gir1.2-snapd-1:amd64 (1.47-0ubuntu0.18.04.0) over (1.43-0ubuntu0.18.04.1) ...
+Preparing to unpack .../06-libsnapd-glib1_1.47-0ubuntu0.18.04.0_amd64.deb ...
+Unpacking libsnapd-glib1:amd64 (1.47-0ubuntu0.18.04.0) over (1.43-0ubuntu0.18.04.1) ...
+Preparing to unpack .../07-gnome-software-plugin-snap_3.28.1-0ubuntu4.18.04.8_amd64.deb ...
+Unpacking gnome-software-plugin-snap (3.28.1-0ubuntu4.18.04.8) over (3.28.1-0ubuntu4.18.04.1) ...
+Preparing to unpack .../08-gnome-software_3.28.1-0ubuntu4.18.04.8_amd64.deb ...
+Unpacking gnome-software (3.28.1-0ubuntu4.18.04.8) over (3.28.1-0ubuntu4.18.04.1) ...
+Preparing to unpack .../09-gnome-software-common_3.28.1-0ubuntu4.18.04.8_all.deb ...
+Unpacking gnome-software-common (3.28.1-0ubuntu4.18.04.8) over (3.28.1-0ubuntu4.18.04.1) ...
+Preparing to unpack .../10-grub-pc_2.02-2ubuntu8.13_amd64.deb ...
+Unpacking grub-pc (2.02-2ubuntu8.13) over (2.02-2ubuntu8.12) ...
+Preparing to unpack .../11-grub2-common_2.02-2ubuntu8.13_amd64.deb ...
+Unpacking grub2-common (2.02-2ubuntu8.13) over (2.02-2ubuntu8.12) ...
+Preparing to unpack .../12-grub-pc-bin_2.02-2ubuntu8.13_amd64.deb ...
+Unpacking grub-pc-bin (2.02-2ubuntu8.13) over (2.02-2ubuntu8.12) ...
+Preparing to unpack .../13-grub-common_2.02-2ubuntu8.13_amd64.deb ...
+Unpacking grub-common (2.02-2ubuntu8.13) over (2.02-2ubuntu8.12) ...
+Preparing to unpack .../14-python3-httplib2_0.9.2+dfsg-1ubuntu0.1_all.deb ...
+Unpacking python3-httplib2 (0.9.2+dfsg-1ubuntu0.1) over (0.9.2+dfsg-1) ...
+Preparing to unpack .../15-ubuntu-software_3.28.1-0ubuntu4.18.04.8_all.deb ...
+Unpacking ubuntu-software (3.28.1-0ubuntu4.18.04.8) over (3.28.1-0ubuntu4.18.04.1) ...
+Preparing to unpack .../16-unattended-upgrades_1.1ubuntu1.18.04.10_all.deb ...
+Unpacking unattended-upgrades (1.1ubuntu1.18.04.10) over (1.1ubuntu1.18.04.9) ...
+Setting up libnss-systemd:amd64 (237-3ubuntu10.17) ...
+Setting up ufw (0.36-0ubuntu0.18.04.1) ...
+Installing new version of config file /etc/default/ufw ...
+Replacing config file /etc/ufw/before.rules with new version
+Replacing config file /etc/ufw/before6.rules with new version
+Setting up libwbclient0:amd64 (2:4.7.6+dfsg~ubuntu-0ubuntu2.7) ...
+Setting up gnome-software-common (3.28.1-0ubuntu4.18.04.8) ...
+Setting up samba-libs:amd64 (2:4.7.6+dfsg~ubuntu-0ubuntu2.7) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+Setting up libnss-myhostname:amd64 (237-3ubuntu10.17) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for install-info (6.5.0.dfsg.1-2) ...
+Setting up systemd-sysv (237-3ubuntu10.17) ...
+Processing triggers for libglib2.0-0:amd64 (2.56.3-0ubuntu0.18.04.1) ...
+Setting up libsmbclient:amd64 (2:4.7.6+dfsg~ubuntu-0ubuntu2.7) ...
+Setting up libsnapd-glib1:amd64 (1.47-0ubuntu0.18.04.0) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up udev (237-3ubuntu10.17) ...
+update-initramfs: deferring update (trigger activated)
+Setting up grub-common (2.02-2ubuntu8.13) ...
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+Setting up gnome-software (3.28.1-0ubuntu4.18.04.8) ...
+Installing new version of config file /etc/xdg/autostart/gnome-software-service.desktop ...
+Setting up code (1.33.0-1554390824) ...
+Processing triggers for systemd (237-3ubuntu10.17) ...
+Setting up python3-httplib2 (0.9.2+dfsg-1ubuntu0.1) ...
+Setting up unattended-upgrades (1.1ubuntu1.18.04.10) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up gir1.2-snapd-1:amd64 (1.47-0ubuntu0.18.04.0) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+Setting up libfwup1:amd64 (12-3bionic2) ...
+Processing triggers for dbus (1.12.2-1ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for rsyslog (8.32.0-1ubuntu4) ...
+Setting up fwupdate (12-3bionic2) ...
+System not running in EFI mode, not installing to EFI system partition.
+EFI variables are not supported on this system.
+Setting up libpam-systemd:amd64 (237-3ubuntu10.17) ...
+Setting up ubuntu-software (3.28.1-0ubuntu4.18.04.8) ...
+Setting up grub-pc-bin (2.02-2ubuntu8.13) ...
+Setting up fwupdate-signed (1.19bionic2+12-3bionic2) ...
+System not running in EFI mode, not installing to EFI system partition.
+Setting up gnome-software-plugin-snap (3.28.1-0ubuntu4.18.04.8) ...
+Setting up grub2-common (2.02-2ubuntu8.13) ...
+Setting up ubuntu-drivers-common (1:0.5.2.3) ...
+Setting up grub-pc (2.02-2ubuntu8.13) ...
+Installing for i386-pc platform.
+Installation finished. No error reported.
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-4.15.0-47-generic
+Found initrd image: /boot/initrd.img-4.15.0-47-generic
+Found linux image: /boot/vmlinuz-4.15.0-46-generic
+Found initrd image: /boot/initrd.img-4.15.0-46-generic
+Found linux image: /boot/vmlinuz-4.15.0-36-generic
+Found initrd image: /boot/initrd.img-4.15.0-36-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+Found Windows 7 on /dev/sda1
+done
+Processing triggers for initramfs-tools (0.130ubuntu3.7) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-47-generic
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo apt install chrome
+[sudo] password for tpc: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package chrome
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo apt install v;l[K[Klc
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  airstrike-common fonts-taml-tscu freeglut3 libblas3 libgfortran4 liblapack3
+  libportmidi0 libsdl-ttf2.0-0 libsmpeg0 linux-headers-4.15.0-36
+  linux-headers-4.15.0-36-generic linux-image-4.15.0-36-generic
+  linux-modules-4.15.0-36-generic linux-modules-extra-4.15.0-36-generic
+  python-numpy python-olefile python-opengl python-pil python-pygame
+  python-rabbyt
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  liba52-0.7.4 libaribb24-0 libass9 libbasicusageenvironment1 libcddb2
+  libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2
+  libgroupsock8 libkate1 liblivemedia62 liblua5.2-0 libmatroska6v5
+  libmicrodns0 libmpcdec6 libmpeg2-4 libnfs11 libopenmpt-modplug1 libplacebo4
+  libpostproc54 libprotobuf-lite10 libproxy-tools libqt5x11extras5
+  libresid-builder0c2a libsidplay2 libssh2-1 libswscale4 libupnp6
+  libusageenvironment3 libva-wayland2 libvlc-bin libvlc5 libvlccore9
+  libvulkan1 vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify
+  vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output
+  vlc-plugin-video-splitter vlc-plugin-visualization
+Suggested packages:
+  libdvdcss2
+The following NEW packages will be installed:
+  liba52-0.7.4 libaribb24-0 libass9 libbasicusageenvironment1 libcddb2
+  libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2
+  libgroupsock8 libkate1 liblivemedia62 liblua5.2-0 libmatroska6v5
+  libmicrodns0 libmpcdec6 libmpeg2-4 libnfs11 libopenmpt-modplug1 libplacebo4
+  libpostproc54 libprotobuf-lite10 libproxy-tools libqt5x11extras5
+  libresid-builder0c2a libsidplay2 libssh2-1 libswscale4 libupnp6
+  libusageenvironment3 libva-wayland2 libvlc-bin libvlc5 libvlccore9
+  libvulkan1 vlc vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify
+  vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output
+  vlc-plugin-video-splitter vlc-plugin-visualization
+0 upgraded, 50 newly installed, 0 to remove and 0 not upgraded.
+Need to get 13.6 MB of archives.
+After this operation, 68.1 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 liba52-0.7.4 amd64 0.7.4-19 [35.2 kB]
+[33m0% [1 liba52-0.7.4 0 B/35.2 kB 0%][0m[33m                                  1% [Working][0m            Get:2 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libaribb24-0 amd64 1.0.3-1 [26.7 kB]
+[33m1% [2 libaribb24-0 1,448 B/26.7 kB 5%][0m[33m                                      1% [Working][0m            Get:3 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libass9 amd64 1:0.14.0-1 [88.2 kB]
+[33m1% [3 libass9 0 B/88.2 kB 0%][0m[33m                             2% [Waiting for headers][0m                        Get:4 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libbasicusageenvironment1 amd64 2018.02.18-1 [15.9 kB]
+[33m2% [4 libbasicusageenvironment1 0 B/15.9 kB 0%][0m[33m                                               3% [Waiting for headers][0m                        Get:5 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libcddb2 amd64 1.3.2-5fakesync1 [33.9 kB]
+[33m3% [5 libcddb2 1,448 B/33.9 kB 4%][0m[33m                                  3% [Waiting for headers][0m                        Get:6 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libdvbpsi10 amd64 1.3.2-1 [47.7 kB]
+[33m3% [6 libdvbpsi10 0 B/47.7 kB 0%][0m[33m                                 4% [Waiting for headers][0m                        Get:7 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libdvdread4 amd64 6.0.0-1 [50.6 kB]
+[33m4% [7 libdvdread4 0 B/50.6 kB 0%][0m[33m                                 5% [Waiting for headers][0m                        Get:8 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libdvdnav4 amd64 6.0.0-1 [38.0 kB]
+[33m5% [8 libdvdnav4 0 B/38.0 kB 0%][0m[33m                                5% [Waiting for headers][0m                        Get:9 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libebml4v5 amd64 1.3.5-2 [45.3 kB]
+[33m5% [9 libebml4v5 1,448 B/45.3 kB 3%][0m[33m                                    6% [Waiting for headers][0m                        Get:10 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libfaad2 amd64 2.8.8-1 [154 kB]
+[33m6% [10 libfaad2 1,448 B/154 kB 1%][0m[33m                                  7% [Waiting for headers][0m                        Get:11 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libgroupsock8 amd64 2018.02.18-1 [21.2 kB]
+[33m7% [11 libgroupsock8 0 B/21.2 kB 0%][0m[33m                                    8% [Waiting for headers][0m                        Get:12 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libkate1 amd64 0.4.1-7build1 [38.1 kB]
+[33m8% [12 libkate1 1,448 B/38.1 kB 4%][0m[33m                                   8% [Waiting for headers][0m                        Get:13 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 liblivemedia62 amd64 2018.02.18-1 [297 kB]
+[33m8% [13 liblivemedia62 0 B/297 kB 0%][0m[33m                                    10% [Waiting for headers][0m                         Get:14 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108 kB]
+[33m10% [14 liblua5.2-0 0 B/108 kB 0%][0m[33m                                  11% [Waiting for headers][0m                         Get:15 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libmatroska6v5 amd64 1.4.8-1.1 [122 kB]
+[33m12% [15 libmatroska6v5 1,448 B/122 kB 1%][0m[33m12% [15 libmatroska6v5 120 kB/122 kB 98%][0m[33m                                         13% [Waiting for headers][0m                         Get:16 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libmicrodns0 amd64 0.0.8-1 [11.3 kB]
+[33m13% [16 libmicrodns0 1,448 B/11.3 kB 13%][0m[33m                                         13% [Waiting for headers][0m                         Get:17 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libmpcdec6 amd64 2:0.1~r495-1 [32.3 kB]
+[33m13% [17 libmpcdec6 0 B/32.3 kB 0%][0m[33m                                  14% [Waiting for headers][0m                         Get:18 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libmpeg2-4 amd64 0.5.1-8 [57.5 kB]
+[33m14% [18 libmpeg2-4 1,448 B/57.5 kB 3%][0m[33m                                      14% [Waiting for headers][0m                         Get:19 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libnfs11 amd64 2.0.0-1~exp1 [75.7 kB]
+[33m14% [19 libnfs11 1,448 B/75.7 kB 2%][0m[33m                                    15% [Working][0m             Get:20 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libopenmpt-modplug1 amd64 0.3.6-1 [19.2 kB]
+[33m15% [20 libopenmpt-modplug1 0 B/19.2 kB 0%][0m[33m                                           16% [Working][0m             Get:21 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libvulkan1 amd64 1.1.70+dfsg1-1ubuntu0.18.04.1 [93.4 kB]
+[33m16% [21 libvulkan1 3,759 B/93.4 kB 4%]                             220 kB/s 55s[0m[33m17% [Working]                                                      220 kB/s 55s[0m                                                                               Get:22 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libplacebo4 amd64 0.4.0-2 [101 kB]
+[33m17% [22 libplacebo4 2,557 B/101 kB 3%]                             220 kB/s 55s[0m[33m17% [22 libplacebo4 86.5 kB/101 kB 85%]                            220 kB/s 54s[0m[33m18% [Waiting for headers]                                          220 kB/s 54s[0m                                                                               Get:23 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libpostproc54 amd64 7:3.4.4-0ubuntu0.18.04.1 [50.4 kB]
+[33m18% [23 libpostproc54 0 B/50.4 kB 0%]                              220 kB/s 54s[0m[33m18% [Waiting for headers]                                          220 kB/s 54s[0m                                                                               Get:24 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libprotobuf-lite10 amd64 3.0.0-9.1ubuntu1 [97.7 kB]
+[33m18% [24 libprotobuf-lite10 0 B/97.7 kB 0%]                         220 kB/s 54s[0m[33m19% [Waiting for headers]                                          220 kB/s 54s[0m                                                                               Get:25 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libproxy-tools amd64 0.4.15-1 [5,312 B]
+[33m19% [25 libproxy-tools 1,448 B/5,312 B 27%]                        220 kB/s 54s[0m[33m20% [Waiting for headers]                                          220 kB/s 54s[0m                                                                               Get:26 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libqt5x11extras5 amd64 5.9.5-0ubuntu1 [8,596 B]
+[33m20% [26 libqt5x11extras5 0 B/8,596 B 0%]                           220 kB/s 54s[0m[33m20% [Waiting for headers]                                          220 kB/s 54s[0m                                                                               Get:27 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libresid-builder0c2a amd64 2.1.1-15ubuntu1 [31.3 kB]
+[33m20% [27 libresid-builder0c2a 1,448 B/31.3 kB 5%]                   220 kB/s 54s[0m[33m21% [Waiting for headers]                                          220 kB/s 53s[0m                                                                               Get:28 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libsidplay2 amd64 2.1.1-15ubuntu1 [87.8 kB]
+[33m21% [28 libsidplay2 1,111 B/87.8 kB 1%]                            220 kB/s 53s[0m[33m22% [Waiting for headers]                                          220 kB/s 53s[0m                                                                               Get:29 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libssh2-1 amd64 1.8.0-1 [73.2 kB]
+[33m22% [29 libssh2-1 0 B/73.2 kB 0%]                                  220 kB/s 53s[0m[33m23% [Waiting for headers]                                          220 kB/s 53s[0m                                                                               Get:30 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libswscale4 amd64 7:3.4.4-0ubuntu0.18.04.1 [150 kB]
+[33m23% [30 libswscale4 0 B/150 kB 0%]                                 220 kB/s 53s[0m[33m24% [Waiting for headers]                                          220 kB/s 52s[0m                                                                               Get:31 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libusageenvironment3 amd64 2018.02.18-1 [6,944 B]
+[33m24% [31 libusageenvironment3 1,448 B/6,944 B 21%]                  220 kB/s 52s[0m[33m24% [Working]                                                      220 kB/s 52s[0m                                                                               Get:32 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libva-wayland2 amd64 2.1.0-3 [8,756 B]
+[33m24% [32 libva-wayland2 0 B/8,756 B 0%]                             220 kB/s 52s[0m[33m25% [Working]                                                      220 kB/s 52s[0m                                                                               Get:33 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libvlccore9 amd64 3.0.4-1ubuntu0.2 [434 kB]
+[33m25% [33 libvlccore9 0 B/434 kB 0%]                                 220 kB/s 52s[0m[33m28% [Working]                                                      220 kB/s 50s[0m                                                                               Get:34 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libvlc5 amd64 3.0.4-1ubuntu0.2 [68.0 kB]
+[33m28% [34 libvlc5 1,111 B/68.0 kB 2%]                                220 kB/s 50s[0m[33m29% [Waiting for headers]                                          220 kB/s 50s[0m                                                                               Get:35 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 libvlc-bin amd64 3.0.4-1ubuntu0.2 [17.1 kB]
+[33m29% [35 libvlc-bin 0 B/17.1 kB 0%]                                 220 kB/s 50s[0m[33m29% [Working]                                                      220 kB/s 50s[0m                                                                               Get:36 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-bin amd64 3.0.4-1ubuntu0.2 [53.1 kB]
+[33m29% [36 vlc-bin 0 B/53.1 kB 0%]                                    220 kB/s 50s[0m[33m30% [Working]                                                      220 kB/s 49s[0m                                                                               Get:37 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-data all 3.0.4-1ubuntu0.2 [338 kB]
+[33m30% [37 vlc-data 1,000 B/338 kB 0%]                                220 kB/s 49s[0m[33m32% [Waiting for headers]                                          220 kB/s 48s[0m                                                                               Get:38 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libdc1394-22 amd64 2.2.5-1 [77.5 kB]
+[33m32% [38 libdc1394-22 1,448 B/77.5 kB 2%]                           220 kB/s 48s[0m[33m33% [Working]                                                      220 kB/s 47s[0m                                                                               Get:39 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libdca0 amd64 0.0.5-10 [100.0 kB]
+[33m33% [39 libdca0 0 B/100.0 kB 0%]                                   220 kB/s 47s[0m[33m34% [Waiting for headers]                                          220 kB/s 47s[0m                                                                               Get:40 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libupnp6 amd64 1:1.6.24-4 [122 kB]
+[33m34% [40 libupnp6 0 B/122 kB 0%]                                    220 kB/s 47s[0m[33m35% [Waiting for headers]                                          220 kB/s 46s[0m                                                                               Get:41 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-plugin-base amd64 3.0.4-1ubuntu0.2 [2,874 kB]
+[33m35% [41 vlc-plugin-base 0 B/2,874 kB 0%]                           220 kB/s 46s[0m[33m50% [41 vlc-plugin-base 2,564 kB/2,874 kB 89%]                     220 kB/s 35s[0m[33m52% [Waiting for headers]                                          220 kB/s 33s[0m                                                                               Get:42 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-plugin-qt amd64 3.0.4-1ubuntu0.2 [1,048 kB]
+[33m52% [42 vlc-plugin-qt 0 B/1,048 kB 0%]                              786 kB/s 9s[0m[33m59% [Waiting for headers]                                           786 kB/s 8s[0m                                                                               Get:43 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-plugin-video-output amd64 3.0.4-1ubuntu0.2 [163 kB]
+[33m59% [43 vlc-plugin-video-output 0 B/163 kB 0%]                      786 kB/s 8s[0m[33m60% [43 vlc-plugin-video-output 137 kB/163 kB 84%]                  786 kB/s 7s[0m[33m60% [43 vlc-plugin-video-output 156 kB/163 kB 96%]                  786 kB/s 7s[0m[33m60% [Waiting for headers]                                           786 kB/s 7s[0m                                                                               Get:44 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc amd64 3.0.4-1ubuntu0.2 [33.7 kB]
+[33m60% [44 vlc 0 B/33.7 kB 0%]                                         786 kB/s 7s[0m[33m61% [Waiting for headers]                                           786 kB/s 7s[0m                                                                               Get:45 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-l10n all 3.0.4-1ubuntu0.2 [5,638 kB]
+[33m61% [45 vlc-l10n 0 B/5,638 kB 0%]                                   786 kB/s 7s[0m[33m80% [45 vlc-l10n 3,264 kB/5,638 kB 58%]                             786 kB/s 3s[0m[33m95% [Waiting for headers]                                           786 kB/s 0s[0m                                                                               Get:46 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-plugin-notify amd64 3.0.4-1ubuntu0.2 [18.3 kB]
+[33m95% [46 vlc-plugin-notify 0 B/18.3 kB 0%]                           786 kB/s 0s[0m[33m95% [Working]                                                       786 kB/s 0s[0m                                                                               Get:47 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-plugin-samba amd64 3.0.4-1ubuntu0.2 [18.9 kB]
+[33m95% [47 vlc-plugin-samba 1,112 B/18.9 kB 6%]                        786 kB/s 0s[0m[33m96% [Waiting for headers]                                           786 kB/s 0s[0m                                                                               Get:48 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-plugin-skins2 amd64 3.0.4-1ubuntu0.2 [468 kB]
+[33m96% [48 vlc-plugin-skins2 0 B/468 kB 0%]                            786 kB/s 0s[0m[33m99% [Waiting for headers]                                           786 kB/s 0s[0m                                                                               Get:49 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-plugin-video-splitter amd64 3.0.4-1ubuntu0.2 [31.3 kB]
+[33m99% [49 vlc-plugin-video-splitter 1,112 B/31.3 kB 4%]               786 kB/s 0s[0m[33m99% [Waiting for headers]                                           786 kB/s 0s[0m                                                                               Get:50 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 vlc-plugin-visualization amd64 3.0.4-1ubuntu0.2 [39.6 kB]
+[33m99% [50 vlc-plugin-visualization 0 B/39.6 kB 0%]                    786 kB/s 0s[0m[33m100% [Working]                                                      786 kB/s 0s[0m                                                                               Fetched 13.6 MB in 16s (862 kB/s)
+Extracting templates from packages: 60%Extracting templates from packages: 100%
+
+7[0;23r8[1ASelecting previously unselected package liba52-0.7.4:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214862 files and directories currently installed.)
+Preparing to unpack .../00-liba52-0.7.4_0.7.4-19_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 8Unpacking liba52-0.7.4:amd64 (0.7.4-19) ...
+7[24;0f[42m[30mProgress: [  1%][49m[39m [..........................................................] 8Selecting previously unselected package libaribb24-0:amd64.
+Preparing to unpack .../01-libaribb24-0_1.0.3-1_amd64.deb ...
+Unpacking libaribb24-0:amd64 (1.0.3-1) ...
+7[24;0f[42m[30mProgress: [  2%][49m[39m [#.........................................................] 8Selecting previously unselected package libass9:amd64.
+Preparing to unpack .../02-libass9_1%3a0.14.0-1_amd64.deb ...
+Unpacking libass9:amd64 (1:0.14.0-1) ...
+7[24;0f[42m[30mProgress: [  3%][49m[39m [#.........................................................] 8Selecting previously unselected package libbasicusageenvironment1:amd64.
+Preparing to unpack .../03-libbasicusageenvironment1_2018.02.18-1_amd64.deb ...
+Unpacking libbasicusageenvironment1:amd64 (2018.02.18-1) ...
+7[24;0f[42m[30mProgress: [  4%][49m[39m [##........................................................] 8Selecting previously unselected package libcddb2.
+Preparing to unpack .../04-libcddb2_1.3.2-5fakesync1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  5%][49m[39m [###.......................................................] 8Unpacking libcddb2 (1.3.2-5fakesync1) ...
+Selecting previously unselected package libdvbpsi10:amd64.
+Preparing to unpack .../05-libdvbpsi10_1.3.2-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  6%][49m[39m [###.......................................................] 8Unpacking libdvbpsi10:amd64 (1.3.2-1) ...
+7[24;0f[42m[30mProgress: [  7%][49m[39m [####......................................................] 8Selecting previously unselected package libdvdread4:amd64.
+Preparing to unpack .../06-libdvdread4_6.0.0-1_amd64.deb ...
+Unpacking libdvdread4:amd64 (6.0.0-1) ...
+7[24;0f[42m[30mProgress: [  8%][49m[39m [####......................................................] 8Selecting previously unselected package libdvdnav4:amd64.
+Preparing to unpack .../07-libdvdnav4_6.0.0-1_amd64.deb ...
+Unpacking libdvdnav4:amd64 (6.0.0-1) ...
+7[24;0f[42m[30mProgress: [  9%][49m[39m [#####.....................................................] 8Selecting previously unselected package libebml4v5:amd64.
+Preparing to unpack .../08-libebml4v5_1.3.5-2_amd64.deb ...
+Unpacking libebml4v5:amd64 (1.3.5-2) ...
+7[24;0f[42m[30mProgress: [ 10%][49m[39m [######....................................................] 8Selecting previously unselected package libfaad2:amd64.
+Preparing to unpack .../09-libfaad2_2.8.8-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 11%][49m[39m [######....................................................] 8Unpacking libfaad2:amd64 (2.8.8-1) ...
+Selecting previously unselected package libgroupsock8:amd64.
+Preparing to unpack .../10-libgroupsock8_2018.02.18-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 12%][49m[39m [#######...................................................] 8Unpacking libgroupsock8:amd64 (2018.02.18-1) ...
+7[24;0f[42m[30mProgress: [ 13%][49m[39m [#######...................................................] 8Selecting previously unselected package libkate1:amd64.
+Preparing to unpack .../11-libkate1_0.4.1-7build1_amd64.deb ...
+Unpacking libkate1:amd64 (0.4.1-7build1) ...
+7[24;0f[42m[30mProgress: [ 14%][49m[39m [########..................................................] 8Selecting previously unselected package liblivemedia62:amd64.
+Preparing to unpack .../12-liblivemedia62_2018.02.18-1_amd64.deb ...
+Unpacking liblivemedia62:amd64 (2018.02.18-1) ...
+7[24;0f[42m[30mProgress: [ 15%][49m[39m [########..................................................] 8Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../13-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+7[24;0f[42m[30mProgress: [ 16%][49m[39m [#########.................................................] 8Selecting previously unselected package libmatroska6v5:amd64.
+Preparing to unpack .../14-libmatroska6v5_1.4.8-1.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 17%][49m[39m [#########.................................................] 8Unpacking libmatroska6v5:amd64 (1.4.8-1.1) ...
+Selecting previously unselected package libmicrodns0:amd64.
+Preparing to unpack .../15-libmicrodns0_0.0.8-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 18%][49m[39m [##########................................................] 8Unpacking libmicrodns0:amd64 (0.0.8-1) ...
+7[24;0f[42m[30mProgress: [ 19%][49m[39m [###########...............................................] 8Selecting previously unselected package libmpcdec6:amd64.
+Preparing to unpack .../16-libmpcdec6_2%3a0.1~r495-1_amd64.deb ...
+Unpacking libmpcdec6:amd64 (2:0.1~r495-1) ...
+7[24;0f[42m[30mProgress: [ 20%][49m[39m [###########...............................................] 8Selecting previously unselected package libmpeg2-4:amd64.
+Preparing to unpack .../17-libmpeg2-4_0.5.1-8_amd64.deb ...
+Unpacking libmpeg2-4:amd64 (0.5.1-8) ...
+7[24;0f[42m[30mProgress: [ 21%][49m[39m [############..............................................] 8Selecting previously unselected package libnfs11:amd64.
+Preparing to unpack .../18-libnfs11_2.0.0-1~exp1_amd64.deb ...
+Unpacking libnfs11:amd64 (2.0.0-1~exp1) ...
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [############..............................................] 8Selecting previously unselected package libopenmpt-modplug1:amd64.
+Preparing to unpack .../19-libopenmpt-modplug1_0.3.6-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 23%][49m[39m [#############.............................................] 8Unpacking libopenmpt-modplug1:amd64 (0.3.6-1) ...
+Selecting previously unselected package libvulkan1:amd64.
+Preparing to unpack .../20-libvulkan1_1.1.70+dfsg1-1ubuntu0.18.04.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 24%][49m[39m [##############............................................] 8Unpacking libvulkan1:amd64 (1.1.70+dfsg1-1ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 25%][49m[39m [##############............................................] 8Selecting previously unselected package libplacebo4:amd64.
+Preparing to unpack .../21-libplacebo4_0.4.0-2_amd64.deb ...
+Unpacking libplacebo4:amd64 (0.4.0-2) ...
+7[24;0f[42m[30mProgress: [ 26%][49m[39m [###############...........................................] 8Selecting previously unselected package libpostproc54:amd64.
+Preparing to unpack .../22-libpostproc54_7%3a3.4.4-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking libpostproc54:amd64 (7:3.4.4-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 27%][49m[39m [###############...........................................] 8Selecting previously unselected package libprotobuf-lite10:amd64.
+Preparing to unpack .../23-libprotobuf-lite10_3.0.0-9.1ubuntu1_amd64.deb ...
+Unpacking libprotobuf-lite10:amd64 (3.0.0-9.1ubuntu1) ...
+7[24;0f[42m[30mProgress: [ 28%][49m[39m [################..........................................] 8Selecting previously unselected package libproxy-tools.
+Preparing to unpack .../24-libproxy-tools_0.4.15-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 29%][49m[39m [################..........................................] 8Unpacking libproxy-tools (0.4.15-1) ...
+Selecting previously unselected package libqt5x11extras5:amd64.
+Preparing to unpack .../25-libqt5x11extras5_5.9.5-0ubuntu1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 30%][49m[39m [#################.........................................] 8Unpacking libqt5x11extras5:amd64 (5.9.5-0ubuntu1) ...
+7[24;0f[42m[30mProgress: [ 31%][49m[39m [##################........................................] 8Selecting previously unselected package libresid-builder0c2a.
+Preparing to unpack .../26-libresid-builder0c2a_2.1.1-15ubuntu1_amd64.deb ...
+Unpacking libresid-builder0c2a (2.1.1-15ubuntu1) ...
+7[24;0f[42m[30mProgress: [ 32%][49m[39m [##################........................................] 8Selecting previously unselected package libsidplay2.
+Preparing to unpack .../27-libsidplay2_2.1.1-15ubuntu1_amd64.deb ...
+Unpacking libsidplay2 (2.1.1-15ubuntu1) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 8Selecting previously unselected package libssh2-1:amd64.
+Preparing to unpack .../28-libssh2-1_1.8.0-1_amd64.deb ...
+Unpacking libssh2-1:amd64 (1.8.0-1) ...
+7[24;0f[42m[30mProgress: [ 34%][49m[39m [###################.......................................] 8Selecting previously unselected package libswscale4:amd64.
+Preparing to unpack .../29-libswscale4_7%3a3.4.4-0ubuntu0.18.04.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 35%][49m[39m [####################......................................] 8Unpacking libswscale4:amd64 (7:3.4.4-0ubuntu0.18.04.1) ...
+Selecting previously unselected package libusageenvironment3:amd64.
+Preparing to unpack .../30-libusageenvironment3_2018.02.18-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 36%][49m[39m [#####################.....................................] 8Unpacking libusageenvironment3:amd64 (2018.02.18-1) ...
+7[24;0f[42m[30mProgress: [ 37%][49m[39m [#####################.....................................] 8Selecting previously unselected package libva-wayland2:amd64.
+Preparing to unpack .../31-libva-wayland2_2.1.0-3_amd64.deb ...
+Unpacking libva-wayland2:amd64 (2.1.0-3) ...
+7[24;0f[42m[30mProgress: [ 38%][49m[39m [######################....................................] 8Selecting previously unselected package libvlccore9:amd64.
+Preparing to unpack .../32-libvlccore9_3.0.4-1ubuntu0.2_amd64.deb ...
+Unpacking libvlccore9:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 39%][49m[39m [######################....................................] 8Selecting previously unselected package libvlc5:amd64.
+Preparing to unpack .../33-libvlc5_3.0.4-1ubuntu0.2_amd64.deb ...
+Unpacking libvlc5:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 40%][49m[39m [#######################...................................] 8Selecting previously unselected package libvlc-bin:amd64.
+Preparing to unpack .../34-libvlc-bin_3.0.4-1ubuntu0.2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 41%][49m[39m [#######################...................................] 8Unpacking libvlc-bin:amd64 (3.0.4-1ubuntu0.2) ...
+Selecting previously unselected package vlc-bin.
+Preparing to unpack .../35-vlc-bin_3.0.4-1ubuntu0.2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 42%][49m[39m [########################..................................] 8Unpacking vlc-bin (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 43%][49m[39m [########################..................................] 8Selecting previously unselected package vlc-data.
+Preparing to unpack .../36-vlc-data_3.0.4-1ubuntu0.2_all.deb ...
+Unpacking vlc-data (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 44%][49m[39m [#########################.................................] 8Selecting previously unselected package libdc1394-22:amd64.
+Preparing to unpack .../37-libdc1394-22_2.2.5-1_amd64.deb ...
+Unpacking libdc1394-22:amd64 (2.2.5-1) ...
+7[24;0f[42m[30mProgress: [ 45%][49m[39m [##########################................................] 8Selecting previously unselected package libdca0:amd64.
+Preparing to unpack .../38-libdca0_0.0.5-10_amd64.deb ...
+Unpacking libdca0:amd64 (0.0.5-10) ...
+7[24;0f[42m[30mProgress: [ 46%][49m[39m [##########################................................] 8Selecting previously unselected package libupnp6:amd64.
+Preparing to unpack .../39-libupnp6_1%3a1.6.24-4_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 47%][49m[39m [###########################...............................] 8Unpacking libupnp6:amd64 (1:1.6.24-4) ...
+Selecting previously unselected package vlc-plugin-base:amd64.
+Preparing to unpack .../40-vlc-plugin-base_3.0.4-1ubuntu0.2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 48%][49m[39m [###########################...............................] 8Unpacking vlc-plugin-base:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 49%][49m[39m [############################..............................] 8Selecting previously unselected package vlc-plugin-qt:amd64.
+Preparing to unpack .../41-vlc-plugin-qt_3.0.4-1ubuntu0.2_amd64.deb ...
+Unpacking vlc-plugin-qt:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Selecting previously unselected package vlc-plugin-video-output:amd64.
+Preparing to unpack .../42-vlc-plugin-video-output_3.0.4-1ubuntu0.2_amd64.deb ...
+Unpacking vlc-plugin-video-output:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 51%][49m[39m [#############################.............................] 8Selecting previously unselected package vlc.
+Preparing to unpack .../43-vlc_3.0.4-1ubuntu0.2_amd64.deb ...
+Unpacking vlc (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 52%][49m[39m [##############################............................] 8Selecting previously unselected package vlc-l10n.
+Preparing to unpack .../44-vlc-l10n_3.0.4-1ubuntu0.2_all.deb ...
+Unpacking vlc-l10n (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 53%][49m[39m [##############################............................] 8Selecting previously unselected package vlc-plugin-notify:amd64.
+Preparing to unpack .../45-vlc-plugin-notify_3.0.4-1ubuntu0.2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 54%][49m[39m [###############################...........................] 8Unpacking vlc-plugin-notify:amd64 (3.0.4-1ubuntu0.2) ...
+Selecting previously unselected package vlc-plugin-samba:amd64.
+Preparing to unpack .../46-vlc-plugin-samba_3.0.4-1ubuntu0.2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 55%][49m[39m [################################..........................] 8Unpacking vlc-plugin-samba:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 56%][49m[39m [################################..........................] 8Selecting previously unselected package vlc-plugin-skins2:amd64.
+Preparing to unpack .../47-vlc-plugin-skins2_3.0.4-1ubuntu0.2_amd64.deb ...
+Unpacking vlc-plugin-skins2:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 57%][49m[39m [#################################.........................] 8Selecting previously unselected package vlc-plugin-video-splitter:amd64.
+Preparing to unpack .../48-vlc-plugin-video-splitter_3.0.4-1ubuntu0.2_amd64.deb ...
+Unpacking vlc-plugin-video-splitter:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 58%][49m[39m [#################################.........................] 8Selecting previously unselected package vlc-plugin-visualization:amd64.
+Preparing to unpack .../49-vlc-plugin-visualization_3.0.4-1ubuntu0.2_amd64.deb ...
+Unpacking vlc-plugin-visualization:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 59%][49m[39m [##################################........................] 8Setting up libvulkan1:amd64 (1.1.70+dfsg1-1ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 60%][49m[39m [##################################........................] 8Setting up libmpeg2-4:amd64 (0.5.1-8) ...
+7[24;0f[42m[30mProgress: [ 61%][49m[39m [###################################.......................] 8Setting up libusageenvironment3:amd64 (2018.02.18-1) ...
+7[24;0f[42m[30mProgress: [ 62%][49m[39m [####################################......................] 8Setting up libplacebo4:amd64 (0.4.0-2) ...
+Setting up libqt5x11extras5:amd64 (5.9.5-0ubuntu1) ...
+7[24;0f[42m[30mProgress: [ 63%][49m[39m [####################################......................] 8Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Setting up vlc-data (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 64%][49m[39m [#####################################.....................] 8Setting up libdvbpsi10:amd64 (1.3.2-1) ...
+7[24;0f[42m[30mProgress: [ 65%][49m[39m [#####################################.....................] 8Setting up libmpcdec6:amd64 (2:0.1~r495-1) ...
+7[24;0f[42m[30mProgress: [ 66%][49m[39m [######################################....................] 8Setting up libaribb24-0:amd64 (1.0.3-1) ...
+Setting up libbasicusageenvironment1:amd64 (2018.02.18-1) ...
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [#######################################...................] 8Setting up libproxy-tools (0.4.15-1) ...
+7[24;0f[42m[30mProgress: [ 68%][49m[39m [#######################################...................] 8Setting up libmicrodns0:amd64 (0.0.8-1) ...
+7[24;0f[42m[30mProgress: [ 69%][49m[39m [########################################..................] 8Setting up libebml4v5:amd64 (1.3.5-2) ...
+7[24;0f[42m[30mProgress: [ 70%][49m[39m [########################################..................] 8Setting up libva-wayland2:amd64 (2.1.0-3) ...
+Setting up libass9:amd64 (1:0.14.0-1) ...
+7[24;0f[42m[30mProgress: [ 71%][49m[39m [#########################################.................] 8Setting up libfaad2:amd64 (2.8.8-1) ...
+7[24;0f[42m[30mProgress: [ 72%][49m[39m [#########################################.................] 8Setting up libkate1:amd64 (0.4.1-7build1) ...
+7[24;0f[42m[30mProgress: [ 73%][49m[39m [##########################################................] 8Setting up libdc1394-22:amd64 (2.2.5-1) ...
+7[24;0f[42m[30mProgress: [ 74%][49m[39m [##########################################................] 8Setting up vlc-l10n (3.0.4-1ubuntu0.2) ...
+Setting up libnfs11:amd64 (2.0.0-1~exp1) ...
+7[24;0f[42m[30mProgress: [ 75%][49m[39m [###########################################...............] 8Setting up liba52-0.7.4:amd64 (0.7.4-19) ...
+7[24;0f[42m[30mProgress: [ 76%][49m[39m [############################################..............] 8Setting up libssh2-1:amd64 (1.8.0-1) ...
+7[24;0f[42m[30mProgress: [ 77%][49m[39m [############################################..............] 8Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libupnp6:amd64 (1:1.6.24-4) ...
+7[24;0f[42m[30mProgress: [ 78%][49m[39m [#############################################.............] 8Setting up libvlccore9:amd64 (3.0.4-1ubuntu0.2) ...
+Setting up libswscale4:amd64 (7:3.4.4-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 79%][49m[39m [#############################################.............] 8Setting up vlc-plugin-video-splitter:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 80%][49m[39m [##############################################............] 8Setting up libcddb2 (1.3.2-5fakesync1) ...
+7[24;0f[42m[30mProgress: [ 81%][49m[39m [###############################################...........] 8Setting up libpostproc54:amd64 (7:3.4.4-0ubuntu0.18.04.1) ...
+7[24;0f[42m[30mProgress: [ 82%][49m[39m [###############################################...........] 8Setting up libgroupsock8:amd64 (2018.02.18-1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up vlc-plugin-visualization:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 83%][49m[39m [################################################..........] 8Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+7[24;0f[42m[30mProgress: [ 84%][49m[39m [################################################..........] 8Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+Setting up vlc-plugin-notify:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 85%][49m[39m [#################################################.........] 8Setting up libresid-builder0c2a (2.1.1-15ubuntu1) ...
+7[24;0f[42m[30mProgress: [ 86%][49m[39m [#################################################.........] 8Setting up libsidplay2 (2.1.1-15ubuntu1) ...
+Setting up libdca0:amd64 (0.0.5-10) ...
+7[24;0f[42m[30mProgress: [ 87%][49m[39m [##################################################........] 8Setting up liblivemedia62:amd64 (2018.02.18-1) ...
+7[24;0f[42m[30mProgress: [ 88%][49m[39m [###################################################.......] 8Setting up libprotobuf-lite10:amd64 (3.0.0-9.1ubuntu1) ...
+7[24;0f[42m[30mProgress: [ 89%][49m[39m [###################################################.......] 8Processing triggers for hicolor-icon-theme (0.17-2) ...
+Setting up libopenmpt-modplug1:amd64 (0.3.6-1) ...
+7[24;0f[42m[30mProgress: [ 90%][49m[39m [####################################################......] 8Setting up libdvdread4:amd64 (6.0.0-1) ...
+Setting up libmatroska6v5:amd64 (1.4.8-1.1) ...
+7[24;0f[42m[30mProgress: [ 91%][49m[39m [####################################################......] 8Setting up libvlc5:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 92%][49m[39m [#####################################################.....] 8Setting up vlc-plugin-samba:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 93%][49m[39m [######################################################....] 8Setting up libdvdnav4:amd64 (6.0.0-1) ...
+7[24;0f[42m[30mProgress: [ 94%][49m[39m [######################################################....] 8Setting up vlc-plugin-qt:amd64 (3.0.4-1ubuntu0.2) ...
+Setting up vlc-plugin-video-output:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 95%][49m[39m [#######################################################...] 8Setting up libvlc-bin:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 96%][49m[39m [#######################################################...] 8Setting up vlc-plugin-skins2:amd64 (3.0.4-1ubuntu0.2) ...
+Setting up vlc-plugin-base:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 97%][49m[39m [########################################################..] 8Setting up vlc-bin (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 98%][49m[39m [########################################################..] 8Setting up vlc (3.0.4-1ubuntu0.2) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for libvlc-bin:amd64 (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [ 99%][49m[39m [#########################################################.] 8
+7[0;24r8[1A[J]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ apt search vlc
+Sorting... 0%Sorting... 0%Sorting... 0%Sorting... Done
+Full Text Search... 50%Full Text Search... 50%Full Text Search... Done
+[32mbrowser-plugin-vlc[0m/bionic 2.0.6-4 amd64
+  multimedia plugin for web browsers based on VLC
+
+[32mcubemap[0m/bionic 1.3.2-1 amd64
+  scalable video reflector, designed to be used with VLC
+
+[32mdvblast[0m/bionic 3.1-2 amd64
+  Simple and powerful dvb-streaming application
+
+[32mforensics-extra-gui[0m/bionic,bionic 1.13 all
+  Forensics Environment - extra GUI components (metapackage)
+
+[32mfp-units-multimedia[0m/bionic-updates 3.0.4+dfsg-18ubuntu2 amd64
+  Free Pascal - multimedia units dependency package
+
+[32mfp-units-multimedia-3.0.4[0m/bionic-updates 3.0.4+dfsg-18ubuntu2 amd64
+  Free Pascal - multimedia units
+
+[32mfreeplayer[0m/bionic,bionic 20070531+dfsg.1-5build1 all
+  wrapper around vlc for French ADSL FreeBox
+
+[32mfreetuxtv[0m/bionic 0.6.8~dfsg1-1build1 amd64
+  Internet television and radio player
+
+[32mgetstream[0m/bionic 20100616-1build1 amd64
+  DVB streaming application
+
+[32mhdhomerun-config[0m/bionic 20180327-1 amd64
+  Configuration utility for Silicon Dust HD HomeRun
+
+[32mhdhomerun-config-gui[0m/bionic 20161117-0ubuntu3 amd64
+  GUI Configuration utility for Silicon Dust HD HomeRun
+
+[32mkaffeine[0m/bionic 2.0.14-1 amd64
+  versatile media player for KDE
+
+[32mladitools[0m/bionic,bionic 1.1.0-2 all
+  Linux Audio Desktop Integration Tools
+
+[32mlibbluray-bdj[0m/bionic,bionic 1:1.0.2-3 all
+  Blu-ray Disc Java support library (BD-J library)
+
+[32mlibbluray-bin[0m/bionic 1:1.0.2-3 amd64
+  Blu-ray disc playback support library (tools)
+
+[32mlibbluray-dev[0m/bionic 1:1.0.2-3 amd64
+  Blu-ray disc playback support library (development files)
+
+[32mlibbluray-doc[0m/bionic,bionic 1:1.0.2-3 all
+  Blu-ray disc playback support library (documentation)
+
+[32mlibbluray2[0m/bionic,now 1:1.0.2-3 amd64 [installed,automatic]
+  Blu-ray disc playback support library (shared library)
+
+[32mlibdvd-pkg[0m/bionic,bionic 1.4.2-1-1 all
+  DVD-Video playing library - installer
+
+[32mlibhdhomerun-dev[0m/bionic 20180327-1 amd64
+  Development library for Silicon Dust HD HomeRun
+
+[32mlibhdhomerun4[0m/bionic 20180327-1 amd64
+  Library for Silicon Dust HD HomeRun
+
+[32mlibvcdinfo-dev[0m/bionic 0.7.24+dfsg-1 amd64
+  library to extract information from VideoCD (development files)
+
+[32mlibvcdinfo0[0m/bionic 0.7.24+dfsg-1 amd64
+  library to extract information from VideoCD
+
+[32mlibvlc-bin[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  tools for VLC's base library
+
+[32mlibvlc-dev[0m/bionic-updates 3.0.4-1ubuntu0.2 amd64
+  development files for libvlc
+
+[32mlibvlc5[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  multimedia player and streamer library
+
+[32mlibvlccore-dev[0m/bionic-updates 3.0.4-1ubuntu0.2 amd64
+  development files for libvlccore
+
+[32mlibvlccore9[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  base library for VLC and its modules
+
+[32mmimms[0m/bionic,bionic 3.2.2-1.1 all
+  mms (e.g. mms://) stream downloader
+
+[32mmpris-remote[0m/bionic,bionic 0.0~1.gpb7c7f5c6-1.1 all
+  command-line interface for mpris compatible media players
+
+[32mphonon-backend-vlc[0m/bionic 0.10.1-2 amd64
+  Phonon VLC backend
+
+[32mphonon4qt5-backend-vlc[0m/bionic 0.10.1-2 amd64
+  Phonon4Qt5 VLC backend
+
+[32mpidgin-mpris[0m/bionic 0.2.3-3 amd64
+  sets your available message to your currently playing track
+
+[32mpython3-pafy[0m/bionic,bionic 0.5.2-2 all
+  Download videos and retrieve metadata from YouTube
+
+[32mpython3-streamlink[0m/bionic,bionic 0.10.0+dfsg-1 all
+  Python module for extracting video streams from various websites
+
+[32mpython3-streamlink-doc[0m/bionic,bionic 0.10.0+dfsg-1 all
+  CLI for extracting video streams from various websites (documentation)
+
+[32msmtube[0m/bionic 15.5.10-1build1 amd64
+  YouTube videos browser
+
+[32mstreamlink[0m/bionic,bionic 0.10.0+dfsg-1 all
+  CLI for extracting video streams from various websites to a video player
+
+[32mvlc[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed]
+  multimedia player and streamer
+
+[32mvlc-bin[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  binaries from VLC
+
+[32mvlc-data[0m/bionic-updates,bionic-updates,now 3.0.4-1ubuntu0.2 all [installed,automatic]
+  common data for VLC
+
+[32mvlc-l10n[0m/bionic-updates,bionic-updates,now 3.0.4-1ubuntu0.2 all [installed,automatic]
+  translations for VLC
+
+[32mvlc-plugin-access-extra[0m/bionic-updates 3.0.4-1ubuntu0.2 amd64
+  multimedia player and streamer (extra access plugins)
+
+[32mvlc-plugin-base[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  multimedia player and streamer (base plugins)
+
+[32mvlc-plugin-fluidsynth[0m/bionic-updates 3.0.4-1ubuntu0.2 amd64
+  FluidSynth plugin for VLC
+
+[32mvlc-plugin-jack[0m/bionic-updates 3.0.4-1ubuntu0.2 amd64
+  JACK audio plugins for VLC
+
+[32mvlc-plugin-notify[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  LibNotify plugin for VLC
+
+[32mvlc-plugin-qt[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  multimedia player and streamer (Qt plugin)
+
+[32mvlc-plugin-samba[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  Samba plugin for VLC
+
+[32mvlc-plugin-skins2[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  multimedia player and streamer (Skins2 plugin)
+
+[32mvlc-plugin-svg[0m/bionic-updates 3.0.4-1ubuntu0.2 amd64
+  SVG plugin for VLC
+
+[32mvlc-plugin-video-output[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  multimedia player and streamer (video output plugins)
+
+[32mvlc-plugin-video-splitter[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  multimedia player and streamer (video splitter plugins)
+
+[32mvlc-plugin-visualization[0m/bionic-updates,now 3.0.4-1ubuntu0.2 amd64 [installed,automatic]
+  multimedia player and streamer (visualization plugins)
+
+[32mvlc-plugin-vlsub[0m/bionic,bionic 0.10.2-2 all
+  VLC extension to download subtitles from opensubtitles.org
+
+[32mvlc-plugin-zvbi[0m/bionic-updates 3.0.4-1ubuntu0.2 amd64
+  transitional dummy package
+
+[32mwinetricks[0m/bionic,bionic 0.0+20180217-1 all
+  package manager for Wine to install software easily
+
+[32mx264[0m/bionic 2:0.152.2854+gite9a5903-2 amd64
+  video encoder for the H.264/MPEG-4 AVC standard
+
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ apt remove vlc
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo apt remove vlc
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  airstrike-common fonts-taml-tscu freeglut3 liba52-0.7.4 libaribb24-0 libass9
+  libbasicusageenvironment1 libblas3 libcddb2 libdc1394-22 libdca0 libdvbpsi10
+  libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgfortran4 libgroupsock8
+  libkate1 liblapack3 liblivemedia62 liblua5.2-0 libmatroska6v5 libmicrodns0
+  libmpcdec6 libmpeg2-4 libnfs11 libopenmpt-modplug1 libplacebo4 libportmidi0
+  libpostproc54 libprotobuf-lite10 libproxy-tools libqt5x11extras5
+  libresid-builder0c2a libsdl-ttf2.0-0 libsidplay2 libsmpeg0 libssh2-1
+  libswscale4 libupnp6 libusageenvironment3 libva-wayland2 libvlc-bin libvlc5
+  libvlccore9 libvulkan1 linux-headers-4.15.0-36
+  linux-headers-4.15.0-36-generic linux-image-4.15.0-36-generic
+  linux-modules-4.15.0-36-generic linux-modules-extra-4.15.0-36-generic
+  python-numpy python-olefile python-opengl python-pil python-pygame
+  python-rabbyt vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify
+  vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output
+  vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  vlc
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 224 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;23r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215913 files and directories currently installed.)
+Removing vlc (3.0.4-1ubuntu0.2) ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 25%][49m[39m [##############............................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 87[24;0f[42m[30mProgress: [ 75%][49m[39m [###########################################...............] 8Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+
+7[0;24r8[1A[J]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-08 10:49:53+0530

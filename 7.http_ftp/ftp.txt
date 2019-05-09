@@ -1,0 +1,44 @@
+Script started on 2019-04-08 10:35:00+0530
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo apt-get install vsftpd
+[sudo] password for tpc: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version (3.0.3-9build1).
+The following packages were automatically installed and are no longer required:
+  airstrike-common fonts-taml-tscu freeglut3 libblas3 libgfortran4 liblapack3
+  libportmidi0 libsdl-ttf2.0-0 libsmpeg0 linux-headers-4.15.0-36
+  linux-headers-4.15.0-36-generic linux-image-4.15.0-36-generic
+  linux-modules-4.15.0-36-generic linux-modules-extra-4.15.0-36-generic
+  python-numpy python-olefile python-opengl python-pil python-pygame
+  python-rabbyt
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo gedit /etc/vsftpd.ci[Konf
+
+** (gedit:2827): [1;33mWARNING[0m **: [34m10:37:12.849[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:2827): [1;33mWARNING[0m **: [34m10:37:12.849[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^C
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sftp cs17d46@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d46@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put scrn1.png
+Uploading scrn1.png to /home/cs17d46/scrn1.png
+scrn1.png                                       0%    0     0.0KB/s   --:-- ETAscrn1.png                                     100%  199KB   9.4MB/s   00:00    
+sftp> put scrn2.png
+Uploading scrn2.png to /home/cs17d46/scrn2.png
+scrn2.png                                       0%    0     0.0KB/s   --:-- ETAscrn2.png                                     100%  228KB   9.8MB/s   00:00    
+sftp> ls
+examples.desktop    scrn1.png           scrn2.png           sd.txt              
+task                
+sftp> exit
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-08 10:42:15+0530
